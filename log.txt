@@ -1,0 +1,28 @@
+2023-01-04 06:53:26.405  INFO 6620 --- [restartedMain] c.a.N.NoteSpringBootBackendApplication   : Starting NoteSpringBootBackendApplication using Java 17.0.4.1 on DESKTOP-2QVCR8O with PID 6620 (C:\Users\Woye\workspace\NoteSpringBootBackend\target\classes started by Woye in C:\Users\Woye\workspace\NoteSpringBootBackend)
+2023-01-04 06:53:26.530  INFO 6620 --- [restartedMain] c.a.N.NoteSpringBootBackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-04 06:53:27.397  INFO 6620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-04 06:53:27.398  INFO 6620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-04 06:53:33.367  INFO 6620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-04 06:53:33.821  INFO 6620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 341 ms. Found 1 JPA repository interfaces.
+2023-01-04 06:53:39.372  INFO 6620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8097 (http)
+2023-01-04 06:53:39.442  INFO 6620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-04 06:53:39.442  INFO 6620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-04 06:53:39.823  INFO 6620 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
+2023-01-04 06:53:39.838  INFO 6620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12437 ms
+2023-01-04 06:53:40.622  INFO 6620 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-04 06:53:40.904  INFO 6620 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-04 06:53:42.143  INFO 6620 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-04 06:53:42.719  INFO 6620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-04 06:53:46.783  INFO 6620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-04 06:53:46.876  INFO 6620 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-04 06:53:49.413  INFO 6620 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-04 06:53:49.460  INFO 6620 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-04 06:53:50.388  WARN 6620 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-04 06:53:51.596  INFO 6620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-04 06:53:51.705  INFO 6620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8097 (http) with context path '/api/v1'
+2023-01-04 06:53:51.747  INFO 6620 --- [restartedMain] c.a.N.NoteSpringBootBackendApplication   : Started NoteSpringBootBackendApplication in 30.005 seconds (JVM running for 34.746)
+2023-01-04 06:55:35.421  INFO 6620 --- [http-nio-8097-exec-1] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-04 06:55:35.421  INFO 6620 --- [http-nio-8097-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-04 06:55:35.423  INFO 6620 --- [http-nio-8097-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-04 07:52:14.546  WARN 6620 --- [http-nio-8097-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "${note.id}"]
+2023-01-04 07:52:14.736  WARN 6620 --- [http-nio-8097-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "${note.id}"]
